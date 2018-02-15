@@ -97,8 +97,9 @@ Second of all, intract with code in java.
 
 This project use this libraries ~ Thanks to them.
 
-  [android-gif-drawable](https://github.com/IntruderShanky/Squint)
-  [android-gif-drawable](https://github.com/lopspower/CircularImageView)
+  * [Squint](https://github.com/IntruderShanky/Squint)
+  * [CircularImageView](https://github.com/lopspower/CircularImageView)
+
 
 ## Contributing
 
