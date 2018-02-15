@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shashank.sony.fancyaboutpagelibrary.MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+    <com.shashank.sony.fancyaboutpagelib.FancyAboutPage
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fancyaboutpage"
+        >
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="180dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/shashankprofileimg"
+            app:civ_border_color="#40FFFFFF"
+            app:civ_border_width="10dp"
+            android:id="@+id/circularImageView" />
+
+    </com.shashank.sony.fancyaboutpagelib.FancyAboutPage>
+
+    </RelativeLayout>
+</ScrollView>
+
+    </RelativeLayout>
