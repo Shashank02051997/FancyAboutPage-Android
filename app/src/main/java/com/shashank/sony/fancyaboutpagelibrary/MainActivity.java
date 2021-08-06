@@ -1,11 +1,11 @@
 package com.shashank.sony.fancyaboutpagelibrary;
 
-import android.graphics.Color;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.shashank.sony.fancyaboutpagelib.FancyAboutPage;
 
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                         | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
 
-        FancyAboutPage fancyAboutPage=findViewById(R.id.fancyaboutpage);
+        FancyAboutPage fancyAboutPage = findViewById(R.id.fancyaboutpage);
         //fancyAboutPage.setCoverTintColor(Color.BLUE); //Optional
         fancyAboutPage.setCover(R.drawable.coverimg);
         fancyAboutPage.setName("Shashank Singhal");
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         fancyAboutPage.setAppName("Cake Pop Icon Pack");
         fancyAboutPage.setVersionNameAsAppSubTitle("1.2.3");
         fancyAboutPage.setAppDescription("Cake Pop Icon Pack is an icon pack which follows Google's Material Design language.\n\n" +
-                "This icon pack uses the material design color palette given by google. Every icon is handcrafted with attention to the smallest details!\n\n"+
+                "This icon pack uses the material design color palette given by google. Every icon is handcrafted with attention to the smallest details!\n\n" +
                 "A fresh new take on Material Design iconography. Cake Pop offers unique, creative and vibrant icons. Spice up your phones home-screen by giving it a fresh and unique look with Polycon.");
         fancyAboutPage.addEmailLink("shashanksinghal02@gmail.com");
         fancyAboutPage.addFacebookLink("https://www.facebook.com/shashanksinghal02");

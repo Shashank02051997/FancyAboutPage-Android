@@ -5,34 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.shashank.sony.fancyaboutpagelibrary.MainActivity">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <RelativeLayout
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF">
-    <com.shashank.sony.fancyaboutpagelib.FancyAboutPage
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/fancyaboutpage"
-        >
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <com.shashank.sony.fancyaboutpagelib.FancyAboutPage
+                android:id="@+id/fancyaboutpage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
 
-        <com.mikhaellopez.circularimageview.CircularImageView
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:layout_marginTop="180dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="10dp"
-            android:src="@drawable/shashankprofileimg"
-            app:civ_border_color="#40FFFFFF"
-            app:civ_border_width="10dp"
-            android:id="@+id/circularImageView" />
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/circularImageView"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/shashankprofileimg"
+                    app:civ_border_color="#40FFFFFF"
+                    app:civ_border_width="10dp" />
 
-    </com.shashank.sony.fancyaboutpagelib.FancyAboutPage>
+            </com.shashank.sony.fancyaboutpagelib.FancyAboutPage>
 
-    </RelativeLayout>
-</ScrollView>
+        </RelativeLayout>
+    </ScrollView>
 
-    </RelativeLayout>
+</RelativeLayout>
